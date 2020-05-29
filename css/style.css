@@ -1,0 +1,246 @@
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+html{
+    scroll-behavior: smooth;
+}
+
+.header_area .main-menu .navbar-brand{
+    padding-left: 20%;
+
+}
+
+
+.header_area .main-menu .navbar-nav{
+  margin:auto;
+
+}
+.header_area .main-menu .navbar .nav-link{
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color:var(--titile-color);
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+/* text background gradient */
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+} 
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+} 
+/* social area */
+@media all and (min-device-width : 700px){
+     .list-group-horizontal{
+         display: list-item;
+
+     }
+    .social{
+        margin-left:2rem ;
+        position: fixed;
+        width: 3rem;
+        background: transparent;
+        z-index: 1;
+        right:0;
+        margin-right: 40px;
+    }
+    .site-main .social-area .social-img{
+        border: none;
+        background: transparent;
+    }
+    .site-main .social-area li{
+        border: none;
+        background:transparent;
+    }
+}
+/* for small devices */
+@media all and (max-device-width: 700px){
+    .social{
+    
+        padding:0% 20%;
+        background: transparent;
+        z-index: 1;
+        bottom:0;
+        position: fixed;
+        
+    }
+    .site-main .social-area .social img{
+        height: 50px;
+        border:none;
+        background: transparent;
+    }
+    .social li{
+        display:inline ;
+        border: none;
+        background: transparent; 
+    }
+    
+}
+
+
+.site-main .social-area .social li{
+    padding:5px;
+}
+
+/* banner area*/
+.site-main .site-banner{
+    margin: auto;
+    
+   
+}
+.site-main .site-banner .pinky{
+    background:violet;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.site-banner .site-title{
+    padding-top: 10%;
+    font-weight: 500;
+}
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+
+}
+.site-main .site-banner .site-title h4{
+    font-size: 2rem;
+}
+#aboutid{
+    padding-bottom: 18%;
+}
+.site-main .site-banner .banner-image img{
+padding-top: 10%;
+padding-left: 0 rem;
+
+}
+.site-main .about-area{
+    
+    
+    padding-top: 10rem;  
+    padding-bottom: 3%;
+}
+.site-main .about-area .about-image{
+   text-align: center;
+  
+}
+.site-main .about-area .about-info{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.site-main .about-area .about-head{
+   height: 80px;
+}
+.site-main .services .mimg{
+  position: relative;
+  height: 150px;
+  width: 200px;
+  padding-left: 1rem;
+}
+
+h2{
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+}
+.head-title{
+    font-family:var(--roboto);
+    font-size: 3rem;
+}
+.site-main .services-head {
+    
+    padding-bottom: 7rem;
+    
+}
+.cards-h{
+    transition:transform 0.5s ease;
+}
+.cards-h:hover{
+    box-shadow: var(--box-shadow);
+    transition: transform 0.6s ease;
+    transform: scale(1.1); 
+
+
+
+}
+.project-img-mob{
+    height:300px;
+    width: 180px;
+  
+}
+
+.card{
+   border:none;
+}
+.projects-card-lapi{
+    border:2px;
+  }
+ 
+  .text-offer{
+      font-size: 2.5rem;
+      
+    }
+  .img-offer{
+      height:5rem;
+      
+  }
+  /* pricing */
+  .site-main .pricing-area .pricing{
+      padding-top: 5rem;
+  }
+  .site-main .pricing-area .pricing .wallet-img img{
+      padding-top: 5rem;
+  }
+  .footer .footer-div{
+      padding-top: 9rem;
+      color: whitesmoke;
+  }
+  .footer .footer-div a{
+      color:white
+  }
+  .footer-logo{
+      border:20px;
+  }
+  @media all and (min-device-width : 1000px){
+    .footer{
+        width: 100%;
+        height: 500px;
+  
+        background:url(../img/Path.png);
+       
+    }
+
+  }
+  @media all and (max-device-width: 400px){
+    .footer{
+        width: 100%;
+        background:url(../img/footermob.png);
+       
+    }
+  }
+  @media all and (max-device-width: 1000px) and (min-device-width:400px){
+      .footer{
+          width: 100%;
+          background:url(../img/tabwave.png);
+      }
+
+  }
+  .newsletter-area {
+      padding-top: 3rem;
+      margin-top: 10rem;
+      color: white;
+      height:17rem;
+      background: var(--gradient-color);
+
+  }
+  .newsletter-area .form-group {
+      justify-content: center;
+      
+     
+  }

@@ -1,0 +1,65 @@
+.contact-header{
+    height: 66%;
+    background: url(../img/contact-header.png) no-repeat;
+
+}
+.contact-header .navbar-nav{
+    color:black;
+
+}
+.heading{
+    padding-top:5%;
+}
+.heading h1{
+    font-size: 4rem;
+    
+    color: white;
+}
+.developer .my-name{
+    padding-top: 2rem;
+
+}
+.developer{
+    padding-left: 5%;
+    padding-top: 10rem;
+
+}
+.profile-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    height: 200px;
+    width:200px;
+
+   
+}
+.profile-img:hover{
+    box-shadow: var(--box-shadow);
+}
+.icons{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.contact-card{
+    margin-top: 15rem;
+}
+.contact-card .card a{
+    color: black;
+  
+
+}
+.contact-card h2{
+    font-size: 2rem;
+}
+.contact-card .card a{
+    font-size: 1.8rem;
+}
+.map-image{
+    width: 25%;
+    height: 25%;
+}
+.card{
+    margin:2rem;
+}

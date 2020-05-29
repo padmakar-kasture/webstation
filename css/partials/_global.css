@@ -1,0 +1,41 @@
+.title-text{
+    font:normal bold 50px/72px var(--roboto, cursive);
+}
+.text-uppercase{
+    text-transform:uppercase;
+}
+
+.button{
+    margin: 1rem;
+    border: 2px solid transparent;
+    border-radius: 4px;
+  }
+  .primary-button{
+      background: var(--gradient-color);
+      color: whitesmoke;
+    
+      box-shadow: var(--box-shadow);
+  }
+  .primary-button:hover{
+      background: var(--gradient-color);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color: transparent ;
+       background-clip: text;
+       border-color: violet;
+       border-width: 2px;
+  }
+  .secondery-button{
+      border-color: rgb(238, 96, 238);
+      border-radius: 2px;
+      border-width: 1.5px;
+  }
+ .secondery-button:hover{
+     background: var(--gradient-color);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: var(--gradient-color);
+     border-width: 2px;
+     border-radius: 4px;
+     box-shadow: var(--box-shadow);
+ }
